@@ -29,9 +29,21 @@ you$ pod install
 you$ ./WhatsappAnalyzer.xcworkspace
 ```
 
+### Images ###
 
-### Demo ###
+* Analyzing Conversations
 
-![alt text][demogif]
+![alt text](/images/1.png "Analyzing conversation 1")
+![alt text](/images/2.png "Analyzing conversation 2")
 
-[demogif]: http://i.giphy.com/3oEjHUXiwYPljXpExq.gif "Super short demo"
+---
+* Graphs
+
+![alt text](/images/3.png "New categories")
+![alt text](/images/4.png "Graph - VS mode")
+
+---
+* Graphs 2
+
+![alt text](/images/5.png "Graph - How many messages each participants sent ?")
+![alt text](/images/6.png "Graph - How many times it has been said ?")
