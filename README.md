@@ -33,17 +33,17 @@ you$ ./WhatsappAnalyzer.xcworkspace
 
 * Analyzing Conversations
 
-![alt text](/images/1.png "Analyzing conversation 1")
-![alt text](/images/2.png "Analyzing conversation 2")
+![alt text](/images/1.jpg "Analyzing conversation 1")
+![alt text](/images/2.jpg "Analyzing conversation 2")
 
 ---
 * Graphs
 
-![alt text](/images/3.png "New categories")
-![alt text](/images/4.png "Graph - VS mode")
+![alt text](/images/3.jpg "New categories")
+![alt text](/images/4.jpg "Graph - VS mode")
 
 ---
 * Graphs 2
 
-![alt text](/images/5.png "Graph - How many messages each participants sent ?")
-![alt text](/images/6.png "Graph - How many times it has been said ?")
+![alt text](/images/5.jpg "Graph - How many messages each participants sent ?")
+![alt text](/images/6.jpg "Graph - How many times it has been said ?")
