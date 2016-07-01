@@ -23,27 +23,24 @@ I had to prove someone that I said a certin word more times than he did. This wa
 ### How to run with xCode ? ###
 
 ```sh
-you$ mkdir Whatsapp-Analyzer && cd Whatsapp-Analyzer
-you$ git clone https://github.com/SharonBrizinov/Whatsapp-Analyzer.git
-you$ pod install
-you$ ./WhatsappAnalyzer.xcworkspace
+~you$    mkdir Whatsapp-Analyzer && cd Whatsapp-Analyzer
+~you$    git clone https://github.com/SharonBrizinov/Whatsapp-Analyzer.git
+~you$    pod install
+~you$    ./WhatsappAnalyzer.xcworkspace
 ```
 
 ### Images ###
 
 * Analyzing Conversations
 
-![alt text](/images/1.jpg "Analyzing conversation 1")
-![alt text](/images/2.jpg "Analyzing conversation 2")
+![alt text](/images/1.jpg "Analyzing conversation 1") ![alt text](/images/2.jpg "Analyzing conversation 2")
 
 ---
 * Graphs
 
-![alt text](/images/3.jpg "New categories")
-![alt text](/images/4.jpg "Graph - VS mode")
+![alt text](/images/3.jpg "New categories") ![alt text](/images/4.jpg "Graph - VS mode")
 
 ---
 * Graphs 2
 
-![alt text](/images/5.jpg "Graph - How many messages each participants sent ?")
-![alt text](/images/6.jpg "Graph - How many times it has been said ?")
+![alt text](/images/5.jpg "Graph - How many messages each participants sent ?") ![alt text](/images/6.jpg "Graph - How many times it has been said ?")
