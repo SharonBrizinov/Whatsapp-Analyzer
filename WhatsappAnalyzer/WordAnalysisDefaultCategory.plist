@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<dict>
+		<key>InnerSearch</key>
+		<true/>
+		<key>Tags</key>
+		<array>
+			<string>Love</string>
+			<string>Romance</string>
+		</array>
+		<key>Description</key>
+		<string>How people express their love</string>
+		<key>Name</key>
+		<string>Love</string>
+		<key>Words</key>
+		<array>
+			<string>😍</string>
+			<string>😘</string>
+			<string>Love</string>
+		</array>
+	</dict>
+	<key>New item - 2</key>
+	<dict>
+		<key>InnerSearch</key>
+		<true/>
+		<key>Tags</key>
+		<array>
+			<string>Love</string>
+			<string>Romance</string>
+		</array>
+		<key>Description</key>
+		<string>How people express their love</string>
+		<key>Name</key>
+		<string>Love2</string>
+		<key>Words</key>
+		<array>
+			<string>😍</string>
+			<string>😘</string>
+			<string>Love</string>
+		</array>
+	</dict>
+	<key>New item - 3</key>
+	<dict>
+		<key>InnerSearch</key>
+		<true/>
+		<key>Tags</key>
+		<array>
+			<string>Love</string>
+			<string>Romance</string>
+		</array>
+		<key>Description</key>
+		<string>How people express their love</string>
+		<key>Name</key>
+		<string>Love3</string>
+		<key>Words</key>
+		<array>
+			<string>😍</string>
+			<string>😘</string>
+			<string>Love</string>
+		</array>
+	</dict>
+</dict>
+</plist>
