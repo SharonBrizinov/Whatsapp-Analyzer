@@ -56,6 +56,17 @@
     /* FOR DEBUG PURPOSES ONLY */
     if (kDEBUG)
     {
+        // Test for public view
+        NSURL* urlPathTest = [[NSBundle mainBundle] URLForResource:kFileNameDemoTest withExtension:kFileFormat];
+        Conversation * convTest = [AnalyzeData parseMessagesFromLocalFileWithURL: urlPathTest];
+        convTest.urlFileOnDisk = urlPathTest; // Path to conversation local file on disk
+        convTest.dateAddedAt = [NSDate date]; // Set the date for now
+        convTest.numberTotalMessages = [NSNumber numberWithUnsignedInteger:[convTest.arrayMessages count]]; // total messages in conversation
+        [convTest.arrayWordAnalysisCategory addObjectsFromArray:[WordAnalysisCategory getDefaultWordAnalysisCategories]];
+        [convTest SQPSaveEntityWithCascade:YES];
+        
+        
+        /*
         NSURL* urlPath = [[NSBundle mainBundle] URLForResource:kFileNameDemo withExtension:kFileFormat];
         Conversation * conv = [AnalyzeData parseMessagesFromLocalFileWithURL: urlPath];
         conv.urlFileOnDisk = urlPath; // Path to conversation local file on disk
@@ -89,6 +100,7 @@
         conv4.numberTotalMessages = [NSNumber numberWithUnsignedInteger:[conv4.arrayMessages count]]; // total messages in conversation
         [conv4.arrayWordAnalysisCategory addObjectsFromArray:[WordAnalysisCategory getDefaultWordAnalysisCategories]];
         [conv4 SQPSaveEntityWithCascade:YES];
+         */
     }
     
     

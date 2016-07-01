@@ -1,29 +1,37 @@
-# README #
+# Whatsapp Analyzer (iOS) #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Native iOS application for analyzing whatsapp conversations freely on your own iOS device.
+I wrote this app long time ago, (hence the objective-c code). 
 
-### What is this repository for? ###
+### Goal ###
+I had to prove someone that I said a certin word more times than he did. This was the empirical evidence to win our $10 bet :)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### What can you do with this ? ###
 
-### How do I get set up? ###
+* Export .txt whatsapp converstaions into the app.
+* Analyze whatsapp conversations.
+     * How many messages ?
+     * Who are the participants ?
+     * Who sent the most messages ? 
+     * What is the percentage of each person in the conversation?
+     * etc...
+* View cool graphs
+    * 2 People conversation graphs (1 vs 1)
+    * Group conversation graphs
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
+### How to run with xCode ? ###
 
-* Writing tests
-* Code review
-* Other guidelines
+```sh
+you$ mkdir Whatsapp-Analyzer && cd Whatsapp-Analyzer
+you$ git clone https://github.com/SharonBrizinov/Whatsapp-Analyzer.git
+you$ pod install
+you$ ./WhatsappAnalyzer.xcworkspace
+```
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+### Demo ###
+
+![alt text][demogif]
+
+[demogif]: http://i.giphy.com/3oEjHUXiwYPljXpExq.gif "Super short demo"

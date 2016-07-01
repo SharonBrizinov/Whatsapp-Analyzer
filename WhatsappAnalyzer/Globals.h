@@ -113,6 +113,7 @@
 // File
 #define kDBBase                 @"wamaindb.db"
 #define kFileFormat             @"txt"
+#define kFileNameDemoTest       @"text-conv"
 #define kFileNameDemo           @"text"
 #define kFileNameDemo2          @"text2"
 #define kFileNameDemo3          @"text3"
