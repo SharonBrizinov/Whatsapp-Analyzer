@@ -26,8 +26,10 @@ I had to prove someone that I said a certin word more times than he did. This wa
 ~you$    mkdir Whatsapp-Analyzer && cd Whatsapp-Analyzer
 ~you$    git clone https://github.com/SharonBrizinov/Whatsapp-Analyzer.git
 ~you$    pod install
-~you$    ./WhatsappAnalyzer.xcworkspace
 ```
+
+* Now open WhatsappAnalyzer.xcworkspace
+
 
 ### Images ###
 
